@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f4f4f4"
+    tools:context=".activities.CreateAppointmentActivity">
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="10dp"
+        android:text="Back" />
+    <!-- Spinnerler ve diğer bileşenler burada olacak -->
+    <Spinner
+        android:id="@+id/patient_spinner"
+        android:layout_width="match_parent"
+        android:background="@drawable/spinner_background"
+        android:layout_margin="10dp"
+        android:popupBackground="#dedad9"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:spinnerMode="dropdown"/>
+
+    <!-- Doctors Spinner -->
+    <Spinner
+        android:id="@+id/doctor_spinner"
+        android:layout_width="match_parent"
+        android:background="@drawable/spinner_background"
+        android:layout_margin="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:popupBackground="#dedad9"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:spinnerMode="dropdown"/>
+
+
+    <DatePicker
+        android:id="@+id/appointment_date_picker"
+        android:layout_width="293dp"
+        android:layout_height="310dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/create_appointment_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:text="Create Appointment"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>

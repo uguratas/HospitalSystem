@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f4f4f4"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textViewDoctorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/border_background"/>
+
+    <TextView
+        android:id="@+id/textViewDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/border_background"/>
+
+    <TextView
+        android:id="@+id/textViewDoctorSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/border_background"/>
+
+    <TextView
+        android:id="@+id/textViewDoctorExpression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/border_background"/>
+
+    <LinearLayout
+        android:id="@+id/layoutDeleteDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnDeleteDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

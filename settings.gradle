@@ -1,0 +1,2 @@
+include ':app', ':mysql-connector-j-8.0.33'
+rootProject.name='HospitalSystem'

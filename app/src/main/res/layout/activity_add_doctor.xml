@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f4f4f4"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:text="Back" />
+    <EditText
+        android:id="@+id/doctor_id_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Doctor ID" />
+
+    <EditText
+        android:id="@+id/doctor_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Doctor Name" />
+
+    <EditText
+        android:id="@+id/doctor_surname_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Doctor Surname" />
+
+    <Spinner
+        android:id="@+id/doctor_expression_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/spinner_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:popupBackground="#dedad9"
+        android:spinnerMode="dropdown" />
+    <Button
+        android:id="@+id/add_doctor_button"
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#ff4081"
+        android:fontFamily="sans-serif-medium"
+        android:insetLeft="16dp"
+        android:insetTop="8dp"
+        android:insetRight="16dp"
+        android:insetBottom="8dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Add Doctor"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

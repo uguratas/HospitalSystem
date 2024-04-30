@@ -1,0 +1,17 @@
+<!-- delete_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap
+            android:src="@drawable/delete_icon2"
+        android:gravity="center"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/delete_icon2"
+        android:gravity="center"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+    </item>
+</selector>

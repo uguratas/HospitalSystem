@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_image"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Patient Login and Doctor Login Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_patient_button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Patient Login"
+            android:background="@drawable/button_background"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/add_doctor_button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Doctor Login"
+            android:background="@drawable/button_background"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Get All Patients and Get All Doctors Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/get_all_patients_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Get All Patients"
+            android:background="@drawable/button_background"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/get_all_doctors_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Get All Doctors"
+            android:background="@drawable/button_background"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Create Appointment Button -->
+    <Button
+        android:id="@+id/create_appointment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_background"
+        android:text="Create Appointment"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>
